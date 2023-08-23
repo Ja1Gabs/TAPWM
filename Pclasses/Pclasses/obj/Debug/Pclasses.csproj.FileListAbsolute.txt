@@ -1,0 +1,12 @@
+C:\Users\Aluno\Desktop\Pclasses\Pclasses\obj\Debug\Pclasses.csprojAssemblyReference.cache
+C:\Users\Aluno\Desktop\Pclasses\Pclasses\obj\Debug\Pclasses.Form1.resources
+C:\Users\Aluno\Desktop\Pclasses\Pclasses\obj\Debug\Pclasses.FrmHorista.resources
+C:\Users\Aluno\Desktop\Pclasses\Pclasses\obj\Debug\Pclasses.FrmMensalista.resources
+C:\Users\Aluno\Desktop\Pclasses\Pclasses\obj\Debug\Pclasses.Properties.Resources.resources
+C:\Users\Aluno\Desktop\Pclasses\Pclasses\obj\Debug\Pclasses.csproj.GenerateResource.cache
+C:\Users\Aluno\Desktop\Pclasses\Pclasses\obj\Debug\Pclasses.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Desktop\Pclasses\Pclasses\bin\Debug\Pclasses.exe.config
+C:\Users\Aluno\Desktop\Pclasses\Pclasses\bin\Debug\Pclasses.exe
+C:\Users\Aluno\Desktop\Pclasses\Pclasses\bin\Debug\Pclasses.pdb
+C:\Users\Aluno\Desktop\Pclasses\Pclasses\obj\Debug\Pclasses.exe
+C:\Users\Aluno\Desktop\Pclasses\Pclasses\obj\Debug\Pclasses.pdb
