@@ -30,8 +30,8 @@ namespace Pclasses
         }
         public Char HomeOffice
         {
-            get { return HomeOffice; }
-            set { HomeOffice = value; }
+            get { return homeOffice; }
+            set { homeOffice = value; }
         }
         //metodos
         
