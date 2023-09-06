@@ -10,7 +10,7 @@ function exemplo() {
      
      x = x * 10;
      y = y * 10;
-    return 'x-${x} y=${y} z=${z} w=${w} i=${i}';
+    return `x-${x} y=${y} z=${z} w=${w} i=${i}`;
 }
 
 alert(exemplo());
