@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulário de Validação</title>
+    <script src="index.js">
+        
+    </script>
+</head>
+<body>
+    <center>
+        <div>
+    <form name="meuForm" onsubmit="return validarForm()">
+        <label for="nome">Nome: </label>
+        <input type="text" name="nome">
+        <br>
+
+        <label for="email">Email: </label>
+        <input type="text" name="email">
+        <br>
+
+        <label for="comentario">Comentário: </label>
+        <textarea name="comentario"></textarea>
+        <br>
+
+        <label>Pesquisa (obrigatório):</label>
+        <br>
+        <input type="radio" name="pesquisa" value="sim">Sim
+        <br>
+        <input type="radio" name="pesquisa" value="nao">Não
+        <br>
+
+        <input type="submit" value="Enviar">
+    </form>
+    </div>
+</center>
+</body>
+</html>
