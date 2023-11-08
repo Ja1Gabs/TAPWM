@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Escolha um Curso</title>
+</head>
+<body>
+  <h1>Escolha um curso da Fatec Sorocaba:</h1>
+
+  <select id="cursoSelect">
+    <option value="si">Sistemas de Informação</option>
+    <option value="ads">Análise e Desenvolvimento de Sistemas</option>
+    <option value="log">Logística</option>
+    <option value="gest">Gestão Empresarial</option>
+    
+  </select>
+
+  <script>
+   
+    function abrirCurso() {
+      const cursoSelect = document.getElementById("cursoSelect");
+      const selectedCurso = cursoSelect.options[cursoSelect.selectedIndex].text;
+      const confirmacao = confirm(`Deseja abrir a página do curso de ${selectedCurso}?`);
+
+      if (confirmacao) {
+        const cursoURL = obterURLDoCurso(cursoSelect.value);
+      
+        window.open(cursoURL, "Curso", "width=600,height=300");
+      }
+    }
+
+    
+    function obterURLDoCurso(curso) {
+  const urls = {
+    si: "curso-si.html",
+    ads: "curso-ads.html",
+    log: "curso-log.html"
+  };
+  return urls[curso] || "url-pagina-de-erro.html";
+}
+
+  
+    document.getElementById("cursoSelect").addEventListener("change", abrirCurso);
+  </script>
+</body>
+</html>
